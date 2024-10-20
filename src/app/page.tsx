@@ -46,7 +46,7 @@ export default function LandingPage() {
                             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
                                 Integração e Monitoramento
                                 <br className="hidden sm:inline-block" />
-                                para Entregas Eficientes
+                                 para Entregas Eficientes
                             </h1>
                             <p className="mb-8 leading-relaxed text-sm md:text-base">
                                 A Central Pedidos oferece integração perfeita com aplicativos de vendas e entregas como iFood, além de monitoramento em tempo real dos motoristas para otimizar suas operações.
