@@ -52,7 +52,7 @@ export function CarouselSize() {
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <Image
-                    src="/logos/eventos.jfif"
+                    src="/logos/eventos.png"
                     alt="Golden Eventos"
                     width={200}
                     height={200}
@@ -66,7 +66,7 @@ export function CarouselSize() {
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <Image
-                    src="/logos/golden.jfif"
+                    src="/logos/golden.png"
                     alt="Golden"
                     width={200}
                     height={200}
@@ -80,7 +80,7 @@ export function CarouselSize() {
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <Image
-                    src="/logos/jhony.jfif"
+                    src="/logos/jhony.png"
                     alt="Jhonys"
                     width={200}
                     height={200}
@@ -108,7 +108,7 @@ export function CarouselSize() {
               <Card>
                 <CardContent className="flex aspect-square items-center justify-center p-6">
                   <Image
-                    src="/logos/logo.jfif"
+                    src="/logos/logo.png"
                     alt="Bom Sabor"
                     width={200}
                     height={200}

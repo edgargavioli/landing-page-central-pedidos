@@ -212,7 +212,7 @@ export default function LandingPage() {
 
                 <section className='text-gray-800 flex flex-col justify-center items-center body-font bg-orange-100'>
                     <h2 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
-                        Nossos Parceiros    
+                        Agradecimentos Especiais   
                     </h2>
                     <CarouselSize/>
                 </section>
