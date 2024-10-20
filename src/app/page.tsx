@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { CarouselSize } from '@/components/carousel';
 
 export default function LandingPage() {
-    // const [isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return (
         <div className="flex flex-col min-h-screen bg-orange-50">
