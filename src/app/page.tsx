@@ -56,7 +56,7 @@ export default function LandingPage() {
                                     Teste Agora!
                                 </Button>
                                 <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-100"
-                                    onClick={() => window.open('https://wa.me/449920025146?text=Olá, queria saber mais sobre a idéia')}
+                                    onClick={() => window.open('https://wa.me/55449920025146?text=Olá, queria saber mais sobre a idéia')}
                                 >
                                     Contate-nos
                                 </Button>
@@ -228,7 +228,7 @@ export default function LandingPage() {
                             </p>
                             <div className='flex justify-center mt-11'>
                                 <Button variant="default" className="w-52 font-bold"
-                                    onClick={() => window.open('https://wa.me/449920025146?text=Olá, queria saber mais sobre a idéia')}
+                                    onClick={() => window.open('https://wa.me/55449920025146?text=Olá, queria saber mais sobre a idéia')}
                                 >
                                     Contate-nos
                                 </Button>
