@@ -52,7 +52,7 @@ export default function LandingPage() {
                                 A Central Pedidos oferece integração perfeita com aplicativos de vendas e entregas como iFood, além de monitoramento em tempo real dos motoristas para otimizar suas operações.
                             </p>
                             <div className="flex justify-center flex-col sm:flex-row">
-                                <Button className="mb-2 sm:mb-0 sm:mr-2 bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://centralpedidos.com.br/dashboard')}>
+                                <Button className="mb-2 sm:mb-0 sm:mr-2 bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://central-pedidos.vercel.app/dashboard')}>
                                     Teste Agora!
                                 </Button>
                                 <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-100"
