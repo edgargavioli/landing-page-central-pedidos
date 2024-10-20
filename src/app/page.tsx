@@ -4,6 +4,7 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Menu, X, Smartphone, MapPin, Truck, DollarSign, Clock, Navigation } from "lucide-react"
 import Image from 'next/image';
+import { CarouselSize } from '@/components/carousel';
 
 export default function LandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,7 +53,7 @@ export default function LandingPage() {
                                 A Central Pedidos oferece integração perfeita com aplicativos de vendas e entregas como iFood, além de monitoramento em tempo real dos motoristas para otimizar suas operações.
                             </p>
                             <div className="flex justify-center flex-col sm:flex-row">
-                                <Button className="mb-2 sm:mb-0 sm:mr-2 bg-orange-500 hover:bg-orange-600 text-white">
+                                <Button className="mb-2 sm:mb-0 sm:mr-2 bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://centralpedidos.com.br/dashboard')}>
                                     Teste Agora!
                                 </Button>
                                 <Button variant="outline" className="border-orange-500 text-orange-500 hover:bg-orange-100"
@@ -203,11 +204,18 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="flex justify-center mt-10">
-                            <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+                            <Button className="bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://centralpedidos.com.br/motoboy')}>
                                 Acesso o aplicativo agora!
                             </Button>
                         </div>
                     </div>
+                </section>
+
+                <section className='text-gray-800 flex flex-col justify-center items-center body-font bg-orange-100'>
+                    <h2 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4">
+                        Nossos Parceiros    
+                    </h2>
+                    <CarouselSize/>
                 </section>
 
                 <section className="text-gray-800 body-font bg-orange-200">
@@ -231,6 +239,8 @@ export default function LandingPage() {
                     </div>
                 </section>
             </main>
+
+            
 
             <footer className="text-gray-700 body-font bg-orange-100">
                 <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
