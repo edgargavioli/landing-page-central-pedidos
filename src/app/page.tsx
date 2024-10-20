@@ -1,13 +1,12 @@
 'use client';
 
-import { useState } from 'react'
 import { Button } from "@/components/ui/button"
-import { Menu, X, Smartphone, MapPin, Truck, DollarSign, Clock, Navigation } from "lucide-react"
+import { Smartphone, MapPin, Truck, DollarSign, Clock, Navigation } from "lucide-react"
 import Image from 'next/image';
 import { CarouselSize } from '@/components/carousel';
 
 export default function LandingPage() {
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <div className="flex flex-col min-h-screen bg-orange-50">
@@ -17,7 +16,7 @@ export default function LandingPage() {
                         <Image src="/assets/central.png" alt="hero" className='w-14' height={200} width={200} />
                         <span className="ml-3 text-xl">Central Pedidos</span>
                     </a>
-                    <button
+                    {/* <button
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className="md:hidden"
                     >
@@ -28,7 +27,7 @@ export default function LandingPage() {
                         <a className="mr-5 hover:text-orange-200 py-2 md:py-0">Recursos</a>
                         <a className="mr-5 hover:text-orange-200 py-2 md:py-0">Sobre</a>
                         <a className="mr-5 hover:text-orange-200 py-2 md:py-0">Contato</a>
-                    </nav>
+                    </nav> */}
                 </div>
             </header>
 
