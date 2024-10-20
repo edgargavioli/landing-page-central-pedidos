@@ -203,7 +203,7 @@ export default function LandingPage() {
                             </div>
                         </div>
                         <div className="flex justify-center mt-10">
-                            <Button className="bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://centralpedidos.com.br/motoboy')}>
+                            <Button className="bg-orange-500 hover:bg-orange-600 text-white" onClick={() => window.open('https://centralpedidos.vercel.app/')}>
                                 Acesso o aplicativo agora!
                             </Button>
                         </div>
@@ -228,7 +228,7 @@ export default function LandingPage() {
                             </p>
                             <div className='flex justify-center mt-11'>
                                 <Button variant="default" className="w-52 font-bold"
-                                    onClick={() => window.open('https://wa.me/55449920025146?text=Olá, queria saber mais sobre a idéia')}
+                                    onClick={() => window.open('https://wa.me/+5544920025146?text=Olá, queria saber mais sobre a idéia')}
                                 >
                                     Contate-nos
                                 </Button>
